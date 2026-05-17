@@ -1,3 +1,9 @@
+* Thu May 14 2026 Jakub Havrila <havrila@cesnet.cz> - 2.1.29-0
+- Added mitigation checks for CVE-2026-43284 and CVE-2026-46300.
+
+* Wed May 06 2026 Jakub Havrila <havrila@cesnet.cz> - 2.1.28-0
+- Added mitigation check for CVE-2026-31431.
+
 * Wed Sep 24 2025 Jakub Havrila <havrila@cesnet.cz> - 2.1.27-0
 - Added mitigation check for CVE-2025-38352.
 
