@@ -5,7 +5,7 @@
 
 Summary: Security monitoring probes based on EGI CSIRT requirements
 Name: grid-monitoring-probes-eu.egi.sec
-Version: 2.1.28
+Version: 2.1.29
 Release: 0%{?dist}
 
 License: ASL 2.0
@@ -84,6 +84,10 @@ pattern libkeyutils.so* that doesn't belong to an installed RPM package
 - Check if mitigation for CVE-2025-38352 has been applied
 * WN-check_CVE-2026-31431
 - Check if mitigation for CVE-2026-31431 has been applied
+* WN-check_CVE-2026-43284
+- Check if mitigation for CVE-2026-43284 has been applied
+* WN-check_CVE-2026-46300
+- Check if mitigation for CVE-2026-46300 has been applied
 %prep
 %setup -q
 
@@ -135,6 +139,9 @@ cd -
 /usr/libexec/grid-monitoring/wnfm
 
 %changelog
+* Thu May 14 2026 Jakub Havrila <havrila@cesnet.cz> - 2.1.29-0
+- Added mitigation checks for CVE-2026-43284 and CVE-2026-46300.
+
 * Wed May 06 2026 Jakub Havrila <havrila@cesnet.cz> - 2.1.28-0
 - Added mitigation check for CVE-2026-31431.
 
